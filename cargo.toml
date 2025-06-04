@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Your Name <your.email@example.com>"]
 description = "A Rust framework for implementing Queen Killer Stand from JoJo's Bizarre Adventure"
 license = "MIT"
-repository = "https://github.com/unknownsaying/queen-killer
+repository = "https://github.com/unknownsaying/queen-killer"
 
 [lib]
 name = "queen_killer_stand"
