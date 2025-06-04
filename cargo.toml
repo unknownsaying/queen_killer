@@ -1,0 +1,25 @@
+[package]
+name = "queen-killer-stand"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A Rust framework for implementing Queen Killer Stand from JoJo's Bizarre Adventure"
+license = "MIT"
+repository = "https://github.com/unknownsaying/queen-killer
+
+[lib]
+name = "queen_killer_stand"
+path = "src/lib.rs"
+
+[[example]]
+name = "battle_simulation"
+path = "examples/battle_simulation.rs"
+
+[dependencies]
+# Add any additional dependencies you might need
+# serde = { version = "1.0", features = ["derive"] } # For serialization
+# tokio = { version = "1.0", features = ["full"] } # For async operations
+# rand = "0.8" # For random number generation
+
+[dev-dependencies]
+# Dependencies for testing and examples
